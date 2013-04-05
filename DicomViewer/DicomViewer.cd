@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DicomUtils.DicomElement">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkAAAAAAAAAAAAEAAgAAAABAAAQCEAAAABAAAAJAAA=</HashCode>
+      <FileName>DicomUtils\DicomElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.Command">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DicomUtils\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.ChangeImageCommand" Collapsed="true">
+    <Position X="3" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAEAAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DicomUtils\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.AddAnnotationCommand" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>DicomUtils\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.DeleteAnnotationCommand" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>DicomUtils\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.CommandManager" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIABAQAAAAAQAABIAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>DicomUtils\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomUtils.AnnotationManager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACAAABAAAAABAAAAgAAAAAACAAAAAAABAAAA=</HashCode>
+      <FileName>DicomUtils\AnnotationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomUtils.VideoExporter">
+    <Position X="2.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAABAAAAAAIAAAACAAAEAAAAAAAAAASAAAhAAA=</HashCode>
+      <FileName>DicomUtils\VideoExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.MainForm" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="DicomViewer.MainForm.ToolStripProgressBarDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>5zSZDL0BhCAlTT4CjkCgTxXLhAlCQkeDUIh0yeOF0OE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.SettingsForm" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAIQAADAAEBEAAASAAGAGBAAABAAAADAAAMgBACk=</HashCode>
+      <FileName>SettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.DicomPropertiesForm" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAACAAAACAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DicomPropertiesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DicomViewer.AnnotateTextForm" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACCAAAAAAAACAAAACAAgIBAAAAEAAACCAAAA=</HashCode>
+      <FileName>AnnotateTextForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DicomViewer.DicomUtils.Annotation">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DicomUtils\Annotation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
